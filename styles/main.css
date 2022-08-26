@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,900;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: gold;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container {
+     width: 100%;
+     max-width: 1240px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 100px;
+  color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.heading-small {
+     font-weight: 600;
+     font-size: 30px;
+     color: blue;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+
+.link {
+     text-decoration: none;
+     color: blue;
+}
+
+.link:hover {
+     color: black;
+     transition: all ease-in 0.4s;
+}
+
+.link:active {
+    opacity: 0.4;
+    transition: all ease-in 0.6s;
+}
+
+
+@media only screen and (max-width:777px) {
+    .heading {
+        font-size: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      
+      .heading-small {
+           font-weight: 600;
+           font-size: 30px;
+           color: blue;
+           margin-left: auto;
+           margin-right: auto;
+           text-align: center;
+      }
+}
